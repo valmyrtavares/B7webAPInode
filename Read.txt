@@ -1,3 +1,2 @@
-Dividimos as rotas deuma forma que eu acho separado demais mas é igual ao que foi feito no projeto anterior
-Um controler e um routes
-E foi criado também um models, que aqui tem o nome de service NoteService
+Essa foi a criação de rotas mais didática que eu já vi na vida
+Muito didático nada mais a acrescentar
