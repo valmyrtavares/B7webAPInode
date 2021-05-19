@@ -1,0 +1,4 @@
+Início do projeto da api com msql, tomara que não use sequelize, vamos ver
+Ele está usando https://resttesttest.com/     para testar as rotas
+Aqui é o início de tudo a única diferença é o env que guarda os dados separados da api, o restante é muito igual
+Aula 4/12 só temos o server  e o .env
