@@ -7,7 +7,7 @@ module.exports = {
         res.json({pong:true})
     },
     all: async(req, res) =>{
-         let json = {error:'', result:[]};
+        let json = {error:'', result:[]};
 
         let notes = await NoteService.getAll();
 
@@ -18,17 +18,32 @@ module.exports = {
                 })
             }
         res.json(json)
-        },
-    one:() =>{
+    },
+    
+    one: async(req, res) =>{
+        let json = {error:'', result:{}}; 
+    
+        let id = req.params.id;
+        let note = await NoteService.findById(id);
+
+        if(note){
+            json.result = note;
+        }
+
+        res.json(json);  
+    },
+
+
+
+
+
+    new:async(req, res) =>{
 
     },
-    new:() =>{
+    edit:async(req, res) =>{
 
     },
-    edit:() =>{
-
-    },
-    delete:() =>{
+    delete:async(req, res) =>{
 
     },
 }

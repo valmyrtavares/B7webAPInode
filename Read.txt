@@ -1,12 +1,3 @@
-Aqui o primeiro ponto critico do curso. Vc tem que trocar o mysql por mysql2, está no 
-package.json é só conferir, isso resolve o último erro que deu e também esta´nas 
-dúvidas das aulas. Foi criado a primeira rota para todas as notas e também o banco
-de dados com o Heigi e não com o workbranch. É igual e tranquilo, tive um probleminha
-ao criar o banco porque não coloquei a senha geral que é Amanda@230406 mas 
-uma vez posto tudo corre igual ao video
-
-Outra coisa importante desse curso é que tudo é feito sem o sequelize, usando
-as querys nativas do mysql, isso é uma alegria que eu estava querendo
-
-Eu infelizmente pulei uma aula então tem duas aulas em um commit, mas o conteúdo 
-é pequeno acho que não vai dar maiores problemas Fim da aula 7
+Fim da aula 8
+Foi feito o findById, simples, eu tomei um erreinho porque não abri uma arrow function
+depois do (error, result), mais susto que dificuldade, tranquilo até aqui
