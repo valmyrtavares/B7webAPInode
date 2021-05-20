@@ -1,3 +1,7 @@
-Fim da aula 8
-Foi feito o findById, simples, eu tomei um erreinho porque não abri uma arrow function
-depois do (error, result), mais susto que dificuldade, tranquilo até aqui
+Fim das aula 10 
+Feito o nosso primeiro post e testado funcionando na
+https://resttesttest.com/
+Muito legal para testar APIs
+Um erro reincidente é esquecer a virgula dentro dos métodos do service, bati uma
+cabeça agora pouco. Acho que tive a impressão que era uma classe mas é um objeto
+com métodos dentro
