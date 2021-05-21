@@ -9,7 +9,7 @@ router.get('/ping', NoteController.ping);
 router.get('/notes', NoteController.all)
 router.get('/note/:id', NoteController.one)
 router.post('/note', NoteController.new)
-router.put('/notes/:id', NoteController.edit)
+router.put('/note/:id', NoteController.edit)
 router.delete('/notes/:id', NoteController.delete)
 
 

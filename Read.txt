@@ -1,7 +1,6 @@
-Fim das aula 10 
-Feito o nosso primeiro post e testado funcionando na
-https://resttesttest.com/
-Muito legal para testar APIs
-Um erro reincidente é esquecer a virgula dentro dos métodos do service, bati uma
-cabeça agora pouco. Acho que tive a impressão que era uma classe mas é um objeto
-com métodos dentro
+Fim da aula 11
+E foi replicado exatamente o mesmo do anterior
+Acho muito didático esse curso ,porque ele se atém ao padrão tanto de pensamento quanto 
+de projeto
+Implementado o edit
+PUT
