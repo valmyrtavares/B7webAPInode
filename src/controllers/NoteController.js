@@ -85,6 +85,11 @@ module.exports = {
 
     },
     delete:async(req, res) =>{
+        let json = {error:'', result:{}}; 
+
+        await NoteService.delete(req.params.id)
+
+        res.json(json);  
 
     },
 }

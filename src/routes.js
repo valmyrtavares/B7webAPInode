@@ -10,7 +10,7 @@ router.get('/notes', NoteController.all)
 router.get('/note/:id', NoteController.one)
 router.post('/note', NoteController.new)
 router.put('/note/:id', NoteController.edit)
-router.delete('/notes/:id', NoteController.delete)
+router.delete('/note/:id', NoteController.delete)
 
 
  

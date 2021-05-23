@@ -1,6 +1,3 @@
-Fim da aula 11
-E foi replicado exatamente o mesmo do anterior
-Acho muito didático esse curso ,porque ele se atém ao padrão tanto de pensamento quanto 
-de projeto
-Implementado o edit
-PUT
+Fim do curso
+Foi implementado o delete e acho que pela primeira vez foi sem nenhum error
+Agora é só praticar e refazer e aumentar

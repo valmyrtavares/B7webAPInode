@@ -51,6 +51,15 @@ module.exports = {
         );
 
         });
-    }
+    },
 
+    delete:(id)=>{
+        return new Promise((resolve, reject)=> {
+
+            db.query('DELETE FROM notes WHERE id =  ?', [id], (error, results)=>{
+                if(error) {reject(error); this.return;}
+                resolve(results)
+            })
+        })    
+    }
 }; 
